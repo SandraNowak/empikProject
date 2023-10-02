@@ -34,8 +34,8 @@ class GithubClientImplTest {
     @Test
     public void shouldThrowNotFound_whenObjectNotExist() {
 
-        String login = "login";
-        String expectedErrorMessage = String.format("user with provided login {} not found", login);
+        String login = "sampleLogin";
+        String expectedErrorMessage = String.format("user with provided login %s not found", login);
 
         when(restTemplate.getForObject("https://api.github.com/users/{login}",
                 GithubUserResponse.class, login)).thenThrow(new HttpClientErrorException(HttpStatus.NOT_FOUND));
