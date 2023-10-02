@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.empikproject.externalServiceintegration.github.GithubClientImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-02T18:46:02" hostname="krzysak-laptop" time="0.649">
-  <properties/>
-  <testcase name="shouldThrowNotFound_whenObjectNotExist()" classname="com.empikproject.externalServiceintegration.github.GithubClientImplTest" time="0.649"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
