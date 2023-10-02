@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.empikproject.domain.service.UserActivityServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-02T18:16:07" hostname="krzysak-laptop" time="0.398">
+<testsuite name="com.empikproject.domain.service.UserActivityServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-02T18:46:02" hostname="krzysak-laptop" time="0.031">
   <properties/>
-  <testcase name="shouldIncrementRequestCount_whenUserIsReturnedFromRepo()" classname="com.empikproject.domain.service.UserActivityServiceImplTest" time="0.393"/>
+  <testcase name="shouldIncrementRequestCount_whenUserIsReturnedFromRepo()" classname="com.empikproject.domain.service.UserActivityServiceImplTest" time="0.026"/>
   <testcase name="shouldCreateNEwEntry_WithRequestCountSetTo1_whenUserIsNotReturnedFromRepo()" classname="com.empikproject.domain.service.UserActivityServiceImplTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
